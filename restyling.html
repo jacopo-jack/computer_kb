@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatica|launcher</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .page {
+            display: none;
+        }
+        h1{
+            background-color: aqua;
+            color:black;
+        }
+        .table_of_content{
+            border: 5px solid blue; /* Aggiungi il bordo */
+            padding: 20px; /* Più spazio interno per evidenziare il bordo */
+            margin: 20px auto; /* Aggiungi spazio esterno e centrare l'elemento */
+            width: fit-content; /* Imposta la larghezza per adattarsi al contenuto */
+        }
+        ul li{
+            list-style-type: none;
+        }
+        .page.active {
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        nav {
+            margin-top: 10px;
+            text-align: center;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="page active" id="page-1">
+        <h1>Un Restyling</h1>
+        <p>Ho,nel corso degli anni, scritto due siti web;uno su wordpress e l'altro su weebly.<br>
+           Col passare degli anni li aggiorno, non tanto regolarmente ma  il 15/09/2024 mi son detto
+           che sarebbe stato il caso di fare un po' di restyling.
+        </p>
+        <!--altro tipo code qui va bene-->
+        <!--index of-->
+        <div class="table_of_content">
+            <p>Indice progetti</p>
+             <ul>
+                <li><a href="launcher.html">Launcher</a></li>
+                <li><a href="#">Restyling</a></li>
+                <li><a href="#">Pseudo container</a></li>
+                <li><a href="#">Edge</a></li>
+                <li><a href="#">Audacius_html</a></li>
+                <li><a href="#">Feed RSS</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Data base</a></li>
+             </ul>
+        </div>
+    </div>
+    <div class="page" id="page-2">
+        <h1>Pagina 2</h1>
+        <p>Contenuto della seconda pagina.</p>
+    </div>
+    <div class="page" id="page-3">
+        <h1>Pagina 3</h1>
+        <p>Contenuto della terza pagina.</p>
+    </div>
+    
+    <nav>
+        <!--navigation area-->
+        <a href="index.html">Home</a>
+        <a href="about.html">Chi sono</a>
+        <a href="basic.html">Basic</a>
+        <a href="projects.html">Progetti</a>
+    </nav>
+</body>
+</html>

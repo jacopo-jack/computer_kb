@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatica</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .page {
+            display: none;
+        }
+        h1{
+            background-color: aquamarine;
+            color:black;
+        }
+        .page.active {
+            display: block;
+        }
+        nav {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page active" id="page-1">
+        <h1>Home Page</h1>
+        <p>Benvenuto sul mio sito web dove voglio imparare ad usare il computer.
+            <br>Ok ok probabilmente vuol dire tutto e niente.</p> 
+        <p>Diciamo che voglio imparare a programmare.</p>
+            
+            Questo sito probabilmente verrà ospitato su GitHub Pages; 
+            sua peculiarità è l'essere statico e dinamico al contempo.
+            
+            In che senso? Qualcuno giustamente dirà.
+            Nel senso che voglio...
+        </p>
+        <p>Imparare la paginazione usando solo html e css.<br>
+            Per paginazione si intende: <br>La paginazione o impaginazione è essenzialmente una tecnica di web design per dividere i contenuti digitali di un sito su più pagine, per facilitare la navigazione e la consultazione da parte degli utenti.
+        </p>
+    </div>
+    <div class="page" id="page-2">
+        <h1>Pagina 2</h1>
+        <p>Contenuto della seconda pagina.</p>
+    </div>
+    <div class="page" id="page-3">
+        <h1>Pagina 3</h1>
+        <p>Contenuto della terza pagina.</p>
+    </div>
+    
+    <nav>
+        <a href="about.html">Chi sono</a>
+        <a href="basic.html">Basic</a>
+        <a href="projects.html">Progetti</a>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatica|Basic</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .page {
+            display: none;
+        }
+        h1{
+            background-color: aqua;
+            color:black;
+        }
+        .page.active {
+            display: block;
+        }
+        nav {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page active" id="page-1">
+        <h1>Basic</h1>
+        <p>Qui inizia il corso di Basic per Commodore64.<br></p>
+    </div>
+    <div class="page" id="page-2">
+        <h1>Pagina 2</h1>
+        <p>Contenuto della seconda pagina.</p>
+    </div>
+    <div class="page" id="page-3">
+        <h1>Pagina 3</h1>
+        <p>Contenuto della terza pagina.</p>
+    </div>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Chi sono</a>
+        <a href="basic.html">Basic</a>
+        <a href="projects.html">Progetti</a>
+    </nav>
+</body>
+</html>

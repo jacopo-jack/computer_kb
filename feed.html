@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatica|progetti</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .page {
+            display: none;
+        }
+        h1{
+            background-color: aqua;
+            color:black;
+        }
+        .table_of_content{
+            border: 5px solid blue; /* Aggiungi il bordo */
+            padding: 20px; /* Più spazio interno per evidenziare il bordo */
+            margin: 20px auto; /* Aggiungi spazio esterno e centrare l'elemento */
+            width: fit-content; /* Imposta la larghezza per adattarsi al contenuto */
+        }
+        ul li{
+            list-style-type: none;
+        }
+        .page.active {
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        nav {
+            margin-top: 10px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="page active" id="page-1">
+        <h1>Feed RSS</h1>
+        <p>Sono ormai trascorsi più di dieci anni da quando uso Google news per tenermi aggiornato.<br>
+          Solo che anno dopo anno mi son reso conto che si aggiorna poco e in più, tutorial dopo tutorial,<br>
+          mi è venuta la voglia di creare dei feed, sicuramente migliorabili e da aggiornare più spesso,<br>
+          riguardante il mondo tech e le news.
+        </p>
+        <!--index of-->
+        <div class="table_of_content">
+            <p>Indice progetti</p>
+             <ul>
+                <li><a href="launcher.html">Launcher</a></li>
+                <li><a href="restyling.html">Restyling</a></li>
+                <li><a href="container.html">Pseudo container</a></li>
+                <li><a href="#">Edge</a></li>
+                <li><a href="#">Audacius_html</a></li>
+                <li><a href="feed.html">Feed RSS</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Data base</a></li>
+             </ul>
+        </div>
+    </div>
+    <div class="page" id="page-2">
+        <h1>Pagina 2</h1>
+        <p>Contenuto della seconda pagina.</p>
+    </div>
+    <div class="page" id="page-3">
+        <h1>Pagina 3</h1>
+        <p>Contenuto della terza pagina.</p>
+    </div>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Chi sono</a>
+        <a href="basic.html">Basic</a>
+        <a href="projects.html">Progetti</a>
+    </nav>
+</body>
+</html>
